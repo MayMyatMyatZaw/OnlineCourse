@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Rubik:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 2;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main-content{
+    
+    
+}
+
+.main-container{
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-checkout{
+    width: 700px;
+    height: 500px;
+}
+
+.checkout-header{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.country{
+    margin-bottom: 15px;
+}
+
+.cty{
+    background-color: #fff;
+    width: 320px;
+    padding: 12px;
+    appearance: none;
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/keyboard-down-arrow-1780093-1518654.png');
+    background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: right;
+	background-position-x: 95%;
+}
+
+.cty:focus,.card-name:focus,.card-number:focus,.date:focus,.security-code:focus,.zipcode{
+    outline: 0;
+}
+
+.checkout-radio{
+    width: 650px;
+    margin-bottom: 15px;
+    
+}
+
+.check-radio{
+    border: 1px solid #d1d7dc;
+    height: 45px;
+    padding: 2px 16px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paymentname{
+    font-weight: 500;
+}
+
+.payment-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-img img{
+    width: 100%;
+    height: 25px;
+    background-size: auto, cover;
+    border-radius: 6px;
+    border: 1px solid #d1d7dc;
+    margin-right: 5px;
+
+}
+
+.payment-detail{
+    width: 650px;
+    border: 1px solid #d1d7dc;
+    height: 300px;
+    padding: 13px 24px;
+    margin-bottom: 20px;
+}
+
+.card-name,.card-number,.date,.security-code,.zipcode{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid #060707;
+}
+
+
+
+.card-number,.security-code{
+    background-repeat: no-repeat;
+	background-size: 15px;
+	background-position: right;
+    opacity: 0.8;
+}
+.card-number{
+    background-image: url('https://cpng.pikpng.com/pngl/s/113-1130390_lock-unlocked-svg-png-icon-free-download-lock.png');
+    background-position-x: 99%;
+    
+}
+
+.input{
+    display: flex;
+}
+
+.month{
+    width: 300px;
+    margin-right: 40px;
+}
+
+.security{
+    width: 300px;
+}
+
+.security-code{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxU3uw-6MEKeo_ept6IOT-n7rAzn-4frcbSg&usqp=CAU');
+    background-position-x: 98%;
+}
+
+.zip{
+    width: 280px;
+}
+.order-detail{
+    padding-bottom: 20px;
+}
+
+.order-detail h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.order-content{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order{
+    display: flex;
+}
+
+.order-content img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.orderheader{
+    font-weight: 500;
+}
+
+.wrapper-payment{
+    width: 500px;
+    height: 290px;
+    border: 1px solid #d1d7dc;
+    box-shadow: 5px 5px 5px #e2eef7;
+}
+
+.header{
+    font-size: 24px;
+}
+
+.payment-content{
+    padding:15px;
+}
+
+.line{
+    border-bottom: 1px solid #d1d7dc;
+}
+
+.original-price,.total-price{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.small{
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.paymentbtn{
+    width: 100%;
+    padding: 8px;
+    background-color: #a435f0;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.paymentbtn:hover{
+    background-color: #613a97;
+}
